@@ -29,20 +29,7 @@ ArchiDZ/
 └── README.md          # Project documentation
 ```
 
-## Running Locally
 
-To view the project locally:
-1. Clone this repository to your local machine.
-2. Open the project folder in your preferred code editor (e.g., VS Code).
-3. Use an extension like **Live Server** to launch `index.html` in your browser. Alternatively, simply double-click `index.html` to open it directly in any modern web browser.
-
-## Deployment to Vercel
-
-Since this is a static website (HTML/CSS/JS), deploying to Vercel is extremely simple:
-
-1. Create a GitHub repository and push this project's code to it.
-2. Log in to [Vercel](https://vercel.com).
-3. Click on **"Add New Project"**.
 4. Import your GitHub repository.
 5. Vercel will automatically detect that it's a static site. No build command is necessary.
 6. Click **"Deploy"**. Your site will be live in seconds!
