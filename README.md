@@ -28,11 +28,5 @@ ArchiDZ/
 ├── script.js          # Interactive UI logic (slider, mobile menu)
 └── README.md          # Project documentation
 ```
-
-
-4. Import your GitHub repository.
-5. Vercel will automatically detect that it's a static site. No build command is necessary.
-6. Click **"Deploy"**. Your site will be live in seconds!
-
 ---
 *© ArchiDZ - جميع الحقوق محفوظة*
