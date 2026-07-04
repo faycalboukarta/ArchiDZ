@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArchiDZ - الهندسة المعمارية</title>
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="contact-info">
+                    <span><i class="fa-solid fa-phone"></i> +213 555 12 34 56</span>
+                    <span><i class="fa-regular fa-envelope"></i> contact@archi-dz.com</span>
+                    <span><i class="fa-solid fa-location-dot"></i> الجزائر العاصمة، الجزائر</span>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-behance"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-5a2 2 0 012-2h2a2 2 0 012 2v5" stroke="#c89b51"/>
+                        </svg>
+                    </div>
+                    <div class="logo-text">
+                        <h1>ArchiDZ</h1>
+                        <p>الهندسة المعمارية</p>
+                    </div>
+                </a>
+
+                <div class="nav-links">
+                    <a href="#" class="active">الرئيسية</a>
+                    <a href="#">من نحن</a>
+                    <a href="#">خدماتنا</a>
+                    <a href="#">مشاريعنا</a>
+                    <a href="#">أفكار و مقالات</a>
+                    <a href="#">اتصل بنا</a>
+                </div>
+
+                <div class="nav-actions">
+                    <a href="#" class="btn btn-primary"><i class="fa-regular fa-calendar"></i> طلب عرض سعر</a>
+                    <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2>نصمم مساحات<br>تلهم الحياة<br><span>ونبني المستقبل</span></h2>
+                <p>نحو معماري مبتكر يجمع بين الجمال، الوظيفة<br>والاستدامة لخلق مساحات فريدة.</p>
+                <div class="hero-btns">
+                    <a href="#" class="btn btn-secondary"><i class="fa-solid fa-arrow-left"></i> اكتشف مشاريعنا</a>
+                    <a href="#" class="btn btn-outline-light"><i class="fa-regular fa-comment-dots"></i> تواصل معنا</a>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-regular fa-lightbulb"></i></div>
+                <div>
+                    <h3>تصاميم مبتكرة</h3>
+                    <p>أفكار إبداعية وحلول معمارية فريدة</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                <div>
+                    <h3>جودة عالية</h3>
+                    <p>نلتزم بأعلى معايير الجودة في كل مشروع</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div>
+                    <h3>استدامة</h3>
+                    <p>نصمم لمستقبل أفضل بمراعاة البيئة</p>
+                </div>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-helmet-safety"></i></div>
+                <div>
+                    <h3>إشراف متكامل</h3>
+                    <p>متابعة شاملة من الفكرة إلى تسليم المشروع</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">أحدث المشاريع</span>
+                <h2>تصاميم تنبض بالإبداع</h2>
+            </div>
+            
+            <div class="projects-filter">
+                <button class="filter-btn active">الكل</button>
+                <button class="filter-btn">سكني</button>
+                <button class="filter-btn">تجاري</button>
+                <button class="filter-btn">إداري</button>
+                <button class="filter-btn">داخلي</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="images/project_interior_1783183691387.png" alt="تصميم داخلي">
+                    <div class="project-info">
+                        <h4>تصميم داخلي - الجزائر</h4>
+                        <p>تصميم داخلي</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="images/project_residential_1783183701017.png" alt="منزل عصري">
+                    <div class="project-info">
+                        <h4>منزل عصري - البليدة</h4>
+                        <p>مشروع سكني</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="images/project_commercial_1783183709913.png" alt="مركز تجاري">
+                    <div class="project-info">
+                        <h4>مركز تجاري - وهران</h4>
+                        <p>مشروع تجاري</p>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <img src="images/project_office_1783183755651.png" alt="مبنى إداري">
+                    <div class="project-info">
+                        <h4>مبنى إداري - الجزائر</h4>
+                        <p>مشروع إداري</p>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <img src="images/project_villa_1783183765003.png" alt="فيلا سكنية">
+                    <div class="project-info">
+                        <h4>فيلا سكنية - تيبازة</h4>
+                        <p>مشروع سكني</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-outline-secondary"><i class="fa-solid fa-arrow-left"></i> عرض جميع المشاريع</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">خدماتنا</span>
+                <h2>حلول معمارية متكاملة</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-regular fa-building"></i></div>
+                    <h3>التصميم المعماري</h3>
+                    <p>تصاميم عصرية تلبي احتياجاتك وتعكس رؤيتك.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-couch"></i></div>
+                    <h3>تصميم داخلي</h3>
+                    <p>نخلق مساحات داخلية مريحة وجميلة وعملية.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3>إدارة المشاريع</h3>
+                    <p>إدارة شاملة لضمان تنفيذ المشروع في الوقت والميزانية</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-regular fa-file-lines"></i></div>
+                    <h3>دراسات تقنية</h3>
+                    <p>دراسات دقيقة وتحاليل شاملة لضمان أفضل النتائج</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon"><i class="fa-solid fa-users-gear"></i></div>
+                    <h3>استشارات هندسية</h3>
+                    <p>نقدم لك الخبرة والنصيحة لتحقيق أفضل الحلول</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-dark"><i class="fa-solid fa-arrow-left"></i> عرض جميع الخدمات</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="images/about_draft_1783183773362.png" alt="About ArchiDZ">
+            </div>
+            <div class="about-content">
+                <span class="subtitle">لماذا نحن؟</span>
+                <h2>نحول الأفكار إلى معالم</h2>
+                <p>نؤمن أن العمارة ليست فقط مباني، بل هي تجربة إنسانية تعكس هوية المكان وتلبي تطلعات الناس. نضع خبرتنا وشغفنا لنصمم لك المستقبل.</p>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-user-tie"></i></div>
+                        <h4>15</h4>
+                        <p>مهندس ومصمم</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fa-regular fa-face-smile"></i></div>
+                        <h4>+50</h4>
+                        <p>عميل راضي</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-briefcase"></i></div>
+                        <h4>+10</h4>
+                        <p>سنوات من الخبرة</p>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-building-circle-check"></i></div>
+                        <h4>+150</h4>
+                        <p>مشروع مكتمل</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="subtitle">آراء عملائنا</span>
+                <h2>ثقتكم هي نجاحنا</h2>
+            </div>
+            
+            <div class="testimonials-wrapper">
+                <button class="nav-btn prev-btn"><i class="fa-solid fa-chevron-right"></i></button>
+                
+                <div class="testimonials-slider">
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"فريق احترافي من البداية للنهاية. استمعوا لمتطلباتنا وقدموا أكثر مما توقعنا."</p>
+                        <div class="client-info">
+                            <div class="client-details">
+                                <h4>أمين .د.</h4>
+                                <span>مدير شركة</span>
+                            </div>
+                            <img src="https://i.pravatar.cc/150?img=11" alt="أمين">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"تصميم رائع وتنفيذ دقيق. أنصح الجميع بالتعامل معهم."</p>
+                        <div class="client-info">
+                            <div class="client-details">
+                                <h4>ليلى .ب.</h4>
+                                <span>صاحبة فيلا</span>
+                            </div>
+                            <img src="https://i.pravatar.cc/150?img=5" alt="ليلى">
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="stars">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="quote">"التزام بالمواعيد وجودة عالية في التنفيذ والتصميم."</p>
+                        <div class="client-info">
+                            <div class="client-details">
+                                <h4>خالد .م</h4>
+                                <span>مستثمر عقاري</span>
+                            </div>
+                            <img src="https://i.pravatar.cc/150?img=12" alt="خالد">
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="nav-btn next-btn"><i class="fa-solid fa-chevron-left"></i></button>
+            </div>
+            
+            <div class="slider-dots text-center mt-3">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <div class="cta-icon">
+                    <i class="fa-solid fa-house-chimney-window"></i>
+                </div>
+                <div class="cta-text">
+                    <h2>لديك مشروع في ذهنك؟</h2>
+                    <p>دعنا نحوله إلى واقع. تواصل معنا الآن للحصول على استشارة مجانية</p>
+                </div>
+                <div class="cta-btns">
+                    <a href="#" class="btn btn-secondary"><i class="fa-regular fa-comment-dots"></i> تواصل معنا</a>
+                    <a href="tel:+213555123456" class="btn btn-outline-light"><i class="fa-solid fa-phone"></i> +213 555 12 34 56</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo footer-logo">
+                        <div class="logo-icon">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-5a2 2 0 012-2h2a2 2 0 012 2v5" stroke="#c89b51"/>
+                            </svg>
+                        </div>
+                        <div class="logo-text">
+                            <h3>ArchiDZ</h3>
+                            <p>الهندسة المعمارية</p>
+                        </div>
+                    </a>
+                    <p>نقدم حلول معمارية مبتكرة ومستدامة بأعلى معايير الجودة والاحترافية.</p>
+                    <div class="social-links mt-3">
+                        <a href="#"><i class="fa-brands fa-behance"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#">الرئيسية</a></li>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">خدماتنا</a></li>
+                        <li><a href="#">مشاريعنا</a></li>
+                        <li><a href="#">أفكار و مقالات</a></li>
+                        <li><a href="#">اتصل بنا</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#">التصميم المعماري</a></li>
+                        <li><a href="#">تصميم داخلي</a></li>
+                        <li><a href="#">إدارة المشاريع</a></li>
+                        <li><a href="#">دراسات تقنية</a></li>
+                        <li><a href="#">استشارات هندسية</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>مشاريعنا</h4>
+                    <ul>
+                        <li><a href="#">مشاريع سكنية</a></li>
+                        <li><a href="#">مشاريع تجارية</a></li>
+                        <li><a href="#">مشاريع إدارية</a></li>
+                        <li><a href="#">تصاميم داخلية</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>تواصل معنا</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> الجزائر العاصمة، الجزائر</li>
+                        <li><i class="fa-solid fa-phone"></i> +213 555 12 34 56</li>
+                        <li><i class="fa-regular fa-envelope"></i> contact@archi-dz.com</li>
+                        <li><i class="fa-regular fa-clock"></i> السبت - الخميس: 08:00 - 17:00</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom text-center">
+                <p>جميع الحقوق محفوظة © ArchiDZ</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
